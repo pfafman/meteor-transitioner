@@ -1,16 +1,15 @@
 Package.describe({
-  name: 'ccorcos:transitioner',
+  name: 'pfafman:transitioner',
   summary: 'Page transitions integrated with Iron Router.',
-  version: '2.0.2',
-  git: 'https://github.com/ccorcos/meteor-transitioner'
+  version: '2.0.3',
+  git: 'https://github.com/pfafman/meteor-transitioner'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@1');
 
   api.use([
-    'velocityjs:velocityjs@1.2.0',
-    'iron:router@1.0.0',
+    'iron:router',
     'coffeescript',
     'templating',
     'underscore'
